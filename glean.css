@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #01131f;
+}
+
+h1 {
+    margin-top: 250px;
+    font-size: 800%;
+    color: whitesmoke;
+    font-weight: bolder;
+    text-align: center;
+    text-transform: capitalize;
+    text
+}
+
+p{
+    box-sizing: border-box;
+    text-align: center;
+    margin-left: 200px;
+    margin-top: 40px;
+    color: whitesmoke;
+    font-size: 150%;
+}
+
+.proceed button{
+    font-size: 200%;
+    color: whitesmoke;
+    background-color: navy;
+    border-radius: 0.5rem;
+}
+
+.proceed {
+    box-sizing: border-box;
+    margin: 100px;
+    margin-right: 100;
+    width: fit-content;
+    height: fit-content;
+}

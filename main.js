@@ -112,9 +112,31 @@ function CreateTodoElement(item) {
     return {item_element, input_element, edit_button_element, remove_button_element }
 }
 
+function DisplayTodo() {
+    Load();
+
+   for (let j = 0; j < todo.length; j++) {
+        const item = todo[j];
+
+        const { item_element } = CreateTodoElement(item);
+
+        list_element.append(item_element);
+   }
+}
+
+DisplayTodo();
+
 function Save() {
     //SAVE TODOS
     const save = JSON.stringify(todo);
 
     localStorage.setItem("my_tasks", save);
+}
+
+function Load() {
+    const data = localStorage.getItem("my_tasks");
+
+    if (data) {
+        todo = JSON.parse(data);
+    }
 }
