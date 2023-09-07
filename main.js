@@ -7,7 +7,7 @@ create_button_element.addEventListener('click', CreateNewTodo);
 
 function CreateNewTodo () {
     const item = {
-        id: new Date().getTime('')
+        id: new Date().getTime(''),
         text: "",
         complete: false
     }

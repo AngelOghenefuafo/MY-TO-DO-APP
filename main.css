@@ -1,8 +1,7 @@
-. {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -49,7 +48,7 @@ main {
     color: azure;
     font-size: 20px;
     border-bottom: 2px solid azure;
-    text-transfrom: uppercase;
+    text-transform: uppercase;
 }
 
 .item {
@@ -106,7 +105,7 @@ main {
     color: lightblue;
     margin-right: 1rem;
     opacity: 0.8;
-    tansform: 0.2s;
+    transform: 0.2s;
 }
 
 .actions button.remove-button {
