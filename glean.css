@@ -12,7 +12,15 @@ h1 {
     font-weight: bolder;
     text-align: center;
     text-transform: capitalize;
-    text
+}
+
+h2 {
+    margin-top: 250px;
+    font-size: 500%;
+    color: whitesmoke;
+    font-weight: bolder;
+    text-align: center;
+    text-transform: capitalize;
 }
 
 p{
@@ -22,6 +30,15 @@ p{
     margin-top: 40px;
     color: whitesmoke;
     font-size: 150%;
+}
+
+ol {
+    color: whitesmoke;
+}
+
+ol li{
+    font-size: 200%;
+    text-align: center;
 }
 
 .proceed button{
@@ -37,4 +54,21 @@ p{
     margin-right: 100;
     width: fit-content;
     height: fit-content;
+}
+
+.social-icon{
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+.icon{
+    margin: 0 10px;
+    text-decoration: none;
+    color: whitesmoke;
+    color: 0.2s;
+    margin-bottom: 20px;
+}
+
+.icon:hover{
+    color: blue;
 }
