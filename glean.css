@@ -33,17 +33,12 @@ p{
     margin-right: 200px;
     margin-top: 40px;
     color: black;
-    font-size: 150%;
+    font-size: 30px;
 }
 
-ol {
-    color: black;
-}
-
-ol li{
-    display: list-item;
-    font-size: 200%;
-    text-align: center;
+dl {
+    margin-left: 200px;
+    font-size: 30px;
 }
 
 .proceed button{
