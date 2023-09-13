@@ -2,13 +2,16 @@
     margin: 0;
     padding: 0;
     font-family: 'Times New Roman', Times, serif;
-    background-color: #01131f;
+    background-color: white;
+}
+
+.header h1{
+    background-color: black;
 }
 
 h1 {
-    margin-top: 250px;
     font-size: 800%;
-    color: whitesmoke;
+    color: white;
     font-weight: bolder;
     text-align: center;
     text-transform: capitalize;
@@ -17,7 +20,7 @@ h1 {
 h2 {
     margin-top: 250px;
     font-size: 500%;
-    color: whitesmoke;
+    color: black;
     font-weight: bolder;
     text-align: center;
     text-transform: capitalize;
@@ -27,24 +30,27 @@ p{
     box-sizing: border-box;
     text-align: center;
     margin-left: 200px;
+    margin-right: 200px;
     margin-top: 40px;
-    color: whitesmoke;
+    color: black;
     font-size: 150%;
 }
 
 ol {
-    color: whitesmoke;
+    color: black;
 }
 
 ol li{
+    display: list-item;
     font-size: 200%;
     text-align: center;
 }
 
 .proceed button{
+    margin-left: 200px;
     font-size: 200%;
     color: whitesmoke;
-    background-color: navy;
+    background-color: black;
     border-radius: 0.5rem;
 }
 
@@ -56,15 +62,27 @@ ol li{
     height: fit-content;
 }
 
+.about {
+    margin-bottom: 50px;
+}
+
+.footer {
+    background-color: black;
+
+}
+
 .social-icon{
-    margin-left: 500px;
-    margin-right: 500px;
+    background-color: black;
+    align-items: center;
+
 }
 
 .icon{
+    display: inline-block;
+    align-items: center;
     margin: 0 10px;
     text-decoration: none;
-    color: whitesmoke;
+    color: black;
     color: 0.2s;
     margin-bottom: 20px;
 }
