@@ -1,2 +1,0 @@
-# MY-TO-DO-APP
-
